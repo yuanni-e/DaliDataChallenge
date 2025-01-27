@@ -1,6 +1,6 @@
 # Dali Data Challenge
 
-Simple prediction model using random forest classifier to check if images of individual objects are barnacles or not
+Simple prediction model using random forest classifier to check if images of individual objects are barnacles or not.
 
 ## Description
 
@@ -10,53 +10,23 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* install ipynb
+* opencv2 for python
+* sci-kit learn
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* File names have been kept from downloaded Barnacle folder
+* img1.png and img2.png have been cropped to the main region because I wasn't able to automate the cropping process using opencv
+* Testing and training image datasets can be found in directories 'testing' and 'training' respectively, each with subdirectories separating images of barnacle objects and nonbarnacle objects
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+* Load in classification_functions.ipynb to access the functions used for classification
+* Run cells in barnacle_classification.ipynb in sequential order
 
 ## Authors
 
-Contributors names and contact info
+Annie Yuan 28
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+## Version History: 0.1
